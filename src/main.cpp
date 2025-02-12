@@ -55,7 +55,7 @@ int main() {
 			break;
 		default:
 			std::cout << "Invalid choice. Please try again.\n";
-			continue;
+			break;
 		}
 
 		std::cout << "Sorted Array:\n";

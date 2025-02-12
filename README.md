@@ -1,6 +1,6 @@
 # Visualizing Sorting Algorithms
 
-This project implements various sorting algorithms in C++. The user can choose between different sorting methods through a menu interface. 
+This project implements various sorting algorithms in C++. The user can choose between different sorting methods through a menu interface.
 
 The following sorting algorithms are included:
 
@@ -31,15 +31,21 @@ To build the project, you need to have CMake installed. Follow these steps:
    ```
 
 ## Running the Application
+
 Run the application from the build directory using the following command in powershell:
 
 ```PowerShell
    .\Debug\SortingAlgorithms.exe
-   ```
+```
 
 ## Usage
 
 Upon running the application, a menu will be displayed allowing you to select one of the sorting algorithms. After making a selection, the program will generate a random array, sort it using the chosen algorithm, and visualize the sorting process with ASCII art.
+
+## Visualization Improvements
+- In Quick Sort, subarrays are highlighted and detailed messages are shown during comparisons and swaps.
+- In Merge Sort, the merging process displays subarrays with descriptive messages and highlights the current merge index.
+- The visualization pauses between steps for a clearer step-by-step analysis.
 
 ## Code Structure
 
@@ -54,4 +60,5 @@ Upon running the application, a menu will be displayed allowing you to select on
 Feel free to contribute to this project by adding more sorting algorithms or improving the existing implementations. Please submit a pull request for any changes you wish to propose.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
